@@ -1,4 +1,4 @@
-from turtle import*
+'''from turtle import*'''
 """s = getscreen()
 t = Turtle()
 for i in range(8):
@@ -16,5 +16,4 @@ begin_fill()
 circle(50)
 end_fill()
 mainloop()    """
-
 
