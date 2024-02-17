@@ -17,3 +17,5 @@ circle(50)
 end_fill()
 mainloop()    """
 
+a= 9
+b = 8

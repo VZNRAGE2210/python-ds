@@ -7,7 +7,7 @@ def square():
         right(90)
 def hexagon():
     for i in range(6):
-        forward(100)
+        forward(120)
         right(60)
 for i in range(6):
     fd(100)
@@ -15,4 +15,4 @@ for i in range(6):
     square()
     rt(60)
 hideturtle()
-mainloop
+mainloop()
