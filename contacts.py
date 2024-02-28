@@ -20,5 +20,5 @@ while True:
         if  ch == 'y':
             number = input("📞 enter number")
             contacts[name] = number
-            print(f"✌️{name} added to contacts")
-            print('-'* 20)           
+            print(f"✌{name} added to contacts")
+            print('-'* 20)
