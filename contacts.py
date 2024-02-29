@@ -5,7 +5,7 @@ contacts = {
 while True:
     name = input('🔍 search any contacts: ')
     if len(name) == 0:
-        print('👋bye')
+        print('👋sayonara')
         break
 
     if name in contacts:
