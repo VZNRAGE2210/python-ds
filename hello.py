@@ -1,5 +1,5 @@
-'''from turtle import*'''
-"""s = getscreen()
+from turtle import*
+s = getscreen()
 t = Turtle()
 for i in range(8):
     t.fd(100)
@@ -15,7 +15,5 @@ fillcolor('yellow')
 begin_fill()
 circle(50)
 end_fill()
-mainloop()    """
+mainloop()    
 
-a= 9
-b = 8

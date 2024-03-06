@@ -1,6 +1,6 @@
 from turtle import*
 speed(0)
-bgcolor('red')
+bgcolor('blue')
 def polygon(side, size):
     for i in range(side):
         fd(100)
