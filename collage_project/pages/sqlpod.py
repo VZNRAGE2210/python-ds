@@ -2,7 +2,7 @@ import ollama
 import streamlit as st
 
 st.title("SQLpod")
-st.sidebar.image('https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/mvcufghlazueuq9peryr', use_column_width=True)
+#st.sidebar.image('https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/mvcufghlazueuq9peryr', use_column_width=True)
 
 # initialize history
 if "messages" not in st.session_state:
