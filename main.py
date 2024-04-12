@@ -25,13 +25,28 @@ def add_user():
             status = "Please fill all the fields"
     return render_template('add_user.html',status=status)            
 
-       
-
-
+    
+    
+    
+     
     return render_template('add_user.html')
 
 @app.route('/add/message', methods=['GET', 'POST'])
 def method_name():
+    def add_user(): 
+     status = None      
+    if request.method == 'POST':
+        id= request.form.get('id')
+        message = request.form.get('message')
+        if id and message:
+            u = Message(id=id ,message=message)
+            try:
+                save_to_db(u)
+                status= "User added sucessfully"
+            except Exception as e:
+                status = f"error:{e}"
+        else:
+            status = "Please fill all the fields"
     return render_template('add_message.html')
 
 if __name__ == '__main__':
